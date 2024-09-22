@@ -1,0 +1,25 @@
+@import '../../sass/mixins/_align-center'
+
+.search
+  margin-left: 1rem
+  padding-right: 0.5rem
+  width: 100%
+
+  @media (min-width: 768px)
+    padding-right: 0
+    width: 33%
+
+  &__form
+    max-width: 495px
+    position: relative
+    width: 100%
+
+  &__input
+    border: hidden
+    border-radius: 2px
+    height: 30px
+    padding-left: 10px
+    width: 100%
+    
+  &__go
+    @include align-center
