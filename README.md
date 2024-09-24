@@ -1,14 +1,9 @@
-Rodando o servidor de desenvolvimento
-Para executar o servidor de desenvolvimento, execute o seguinte comando no seu terminal:
+# Instruções para rodar o projeto
 
-yarn start
-Será aberto automaticamente o link http://localhost:3000 em seu navegador padrão.
+## Rodando o servidor de desenvolvimento
+Para executar o servidor de desenvolvimento e visualizar o projeto em tempo real, siga os seguintes passos:
 
-Rodando os testes
-Para executar os testes, execute o seguinte comando no seu terminal:
+1. No terminal, digite o comando:
 
-yarn test
-Obtendo o build de produção
-Caso precise testar o build de produção em sua máquina, basta executar o seguinte comando no seu terminal:
 
-yarn build
+   yarn start
